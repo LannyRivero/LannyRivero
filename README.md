@@ -12,8 +12,7 @@
 - 🔧 **Tools & Platforms:** Git, GitHub, VS Code  
 - 🚀 **Aprendiendo actualmente:** React.js
 
-  ## 📝 Projects  
-Aquí están algunos de los proyectos en los que he trabajado:  
+
 
 ## 📞 Contact  
 📧 **Email:** lannyrivero288@gmail.com 
