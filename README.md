@@ -1,9 +1,16 @@
 
-# 👋 ¡Hola, soy Lanny Rivero Canino! 🚀
+# 👋 ¡Hola, soy Lanny! 🚀
 
-Soy **Desarrolladora Fullstack**, con formación en **Ingeniería Informática** y experiencia en **soporte técnico y optimización de procesos**. Actualmente, me especializo en **React, Node.js y TDD**, creando soluciones web eficientes y escalables.  
+Soy **Fullstack Developer**, con foco en **backend y calidad de software**.  Trabajo con **Java y React**, desarrollando aplicaciones completas y prestando especial atención a la seguridad, la arquitectura y la mantenibilidad del código. 
 
-💡 **Me apasiona el desarrollo web, el análisis de datos y la automatización de procesos.** Siempre estoy en busca de nuevos retos y oportunidades para seguir aprendiendo y creciendo en este emocionante mundo tecnológico.  
+Cuento con experiencia en testing, aplicando pruebas unitarias, de integración y end-to-end. 
+He trabajado con JUnit y Mockito, Testcontainers para pruebas de integración, y Cypress y Selenium para validación funcional y de flujos completos. 
+
+Además, he practicado TDD en katas y ejercicios técnicos, aplicando sus principios al diseño del código.
+
+💡Me siento especialmente cómoda en el backend, donde aporto criterio técnico desde el diseño hasta la implementación.
+
+Desarrollo soluciones con APIs REST, bases de datos relacionales y seguridad basada en Spring Security, incluyendo autenticación y autorización con JWT implementado mediante Nimbus JOSE. 
 
 ---
 
@@ -38,9 +45,6 @@ Soy **Desarrolladora Fullstack**, con formación en **Ingeniería Informática**
 🔹 **[☀️🀈 RenewSim Backend]([URL del repositorio](https://github.com/LannyRivero/RenewSim-backend))**  
 📌 RenewSim es el backend de un simulador de energías renovables que permite calcular generación, eficiencia y retorno de inversión de proyectos basados en energía solar, eólica e hidroeléctrica. Desarrollado en Java 17 +     Spring Boot, el proyecto cuenta con autenticación segura, arquitectura limpia, cobertura de pruebas y despliegue automático.  
 
-🔹 **[Proyecto 3 - Nombre](URL del repositorio)**  
-📌 Descripción breve del proyecto y las tecnologías utilizadas.  
-
 📌 **Ver todos mis proyectos aquí:** 👉 [Mi GitHub](https://github.com/LannyRivero)  
 
 ---
@@ -54,7 +58,8 @@ Soy **Desarrolladora Fullstack**, con formación en **Ingeniería Informática**
 ## 📢 **Contacto**  
 
 📧 **Email:** [lannyrivero288@gmail.com](mailto:lannyrivero288@gmail.com)  
-💼 **LinkedIn:** [Lanny Rivero Canino](https://www.linkedin.com/in/lanny-rivero)  
+💼 **LinkedIn:** [Lanny Rivero Canino](https://www.linkedin.com/in/lanny-rivero)
+💼 **Portafolio:** [Lanny Rivero Canino](https://portafolio-lanny.vercel.app/)  
 
 ⭐ **Si te gusta mi trabajo, sígueme y deja una estrella en mis repositorios. ¡Gracias por pasarte por aquí!** ⭐
 
