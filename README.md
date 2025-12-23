@@ -32,8 +32,8 @@ Soy **Desarrolladora Fullstack**, con formación en **Ingeniería Informática**
 
 ## 🚀 **Proyectos Destacados**  
 
-🔹 **[Proyecto 1 - Nombre](URL del repositorio)**  
-📌 Descripción breve del proyecto y las tecnologías utilizadas.  
+🔹 **[🛡️ Spring Security Template]([URL del repositorio](https://github.com/LannyRivero/spring-security-template))**  
+📌 Plantilla de seguridad enterprise para Spring Boot, construida con Arquitectura Hexagonal, Nimbus JOSE + JWT, RSA/HMAC, roles, scopes y filtros de seguridad listos para producción  
 
 🔹 **[Proyecto 2 - Nombre](URL del repositorio)**  
 📌 Descripción breve del proyecto y las tecnologías utilizadas.  
