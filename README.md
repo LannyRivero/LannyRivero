@@ -35,8 +35,8 @@ Soy **Desarrolladora Fullstack**, con formación en **Ingeniería Informática**
 🔹 **[🛡️ Spring Security Template]([URL del repositorio](https://github.com/LannyRivero/spring-security-template))**  
 📌 Plantilla de seguridad enterprise para Spring Boot, construida con Arquitectura Hexagonal, Nimbus JOSE + JWT, RSA/HMAC, roles, scopes y filtros de seguridad listos para producción  
 
-🔹 **[Proyecto 2 - Nombre](URL del repositorio)**  
-📌 Descripción breve del proyecto y las tecnologías utilizadas.  
+🔹 **[☀️🀈 RenewSim Backend]([URL del repositorio](https://github.com/LannyRivero/RenewSim-backend))**  
+📌 RenewSim es el backend de un simulador de energías renovables que permite calcular generación, eficiencia y retorno de inversión de proyectos basados en energía solar, eólica e hidroeléctrica. Desarrollado en Java 17 +     Spring Boot, el proyecto cuenta con autenticación segura, arquitectura limpia, cobertura de pruebas y despliegue automático.  
 
 🔹 **[Proyecto 3 - Nombre](URL del repositorio)**  
 📌 Descripción breve del proyecto y las tecnologías utilizadas.  
