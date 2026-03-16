@@ -1,75 +1,105 @@
+# Lanny Rivero Canino
 
-# 👋 ¡Hola, soy Lanny! 🚀
+**Backend Engineer · Java · Spring Boot · Spring AI · Sistemas Seguros**
 
-Soy **Fullstack Developer**, con foco en **backend y calidad de software**.  Trabajo con **Java y React**, desarrollando aplicaciones completas y prestando especial atención a la seguridad, la arquitectura y la mantenibilidad del código. 
+Construyo sistemas backend con prácticas de producción reales: arquitectura limpia, seguridad implementada con criterio y código probado que aguanta condiciones reales.
 
-Cuento con experiencia en testing, aplicando pruebas unitarias, de integración y end-to-end. 
-He trabajado con JUnit y Mockito, Testcontainers para pruebas de integración, y Cypress y Selenium para validación funcional y de flujos completos. 
-
-Además, he practicado TDD en katas y ejercicios técnicos, aplicando sus principios al diseño del código.
-
-💡Me siento especialmente cómoda en el backend, donde aporto criterio técnico desde el diseño hasta la implementación.
-
-Desarrollo soluciones con APIs REST, bases de datos relacionales y seguridad basada en Spring Security, incluyendo autenticación y autorización con JWT implementado mediante Nimbus JOSE. 
+Mi foco es Java y Spring Boot — diseño de APIs REST, seguridad con OAuth2, JWT y Keycloak, arquitectura hexagonal, e integración de IA cuando aporta valor real.
 
 ---
 
-## 🛠️ **Tech Stack**  
+## 🛡️ Proyectos destacados
 
-### 🌐 **Frontend**  
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  
+### [AI Secure RAG Engine](https://github.com/LannyRivero/AI-Secure-RAG-Engine)
+> Motor RAG listo para producción · Spring Boot 3.5 · Spring AI · pgvector · Arquitectura Hexagonal
 
-### ⚙️ **Backend**  
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
+- Aislamiento multi-tenant a nivel SQL — acceso cruzado entre tenants estructuralmente imposible
+- Búsqueda híbrida: vectorial (pgvector HNSW) + texto completo (tsvector), fusionada con RRF
+- Respuestas basadas exclusivamente en evidencia — devuelve `no_evidence` en lugar de alucinar
+- Protección contra prompt injection · Resilience4j circuit breaker + retry · Rate limiting con Bucket4j
+- Observabilidad: Micrometer + Prometheus (histogramas de latencia p50/p95/p99)
+- Pirámide de tests completa: unitarios → integración (Testcontainers) → aceptación (MockMvc)
+- **v1.3.0 · 206 commits**
 
-### 🛠 **Herramientas**  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)  
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
+### [Spring Security Template](https://github.com/LannyRivero/spring-security-template)
+Plantilla de seguridad enterprise para Spring Boot. JWT con Nimbus JOSE (RSA/HMAC), RBAC, scopes y filtros de seguridad listos para producción — construida sobre Arquitectura Hexagonal.
+
+### [RenewSim Backend](https://github.com/LannyRivero/RenewSim-backend)
+Simulador fullstack de energías renovables (solar / eólica / hidroeléctrica). Java 17 + Spring Boot, autenticación JWT, arquitectura limpia, CI/CD con GitHub Actions.
 
 ---
 
-## 🚀 **Proyectos Destacados**  
+## 🛠️ Stack técnico
 
-🔹 **[🛡️ Spring Security Template]([URL del repositorio](https://github.com/LannyRivero/spring-security-template))**  
-📌 Plantilla de seguridad enterprise para Spring Boot, construida con Arquitectura Hexagonal, Nimbus JOSE + JWT, RSA/HMAC, roles, scopes y filtros de seguridad listos para producción  
+### ⚙️ Backend
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/JPA_Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
-🔹 **[☀️🀈 RenewSim Backend]([URL del repositorio](https://github.com/LannyRivero/RenewSim-backend))**  
-📌 RenewSim es el backend de un simulador de energías renovables que permite calcular generación, eficiencia y retorno de inversión de proyectos basados en energía solar, eólica e hidroeléctrica. Desarrollado en Java 17 +     Spring Boot, el proyecto cuenta con autenticación segura, arquitectura limpia, cobertura de pruebas y despliegue automático.  
+### 🔐 Seguridad y autenticación
+![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT_Nimbus_JOSE-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white)
 
-📌 **Ver todos mis proyectos aquí:** 👉 [Mi GitHub](https://github.com/LannyRivero)  
+### 🤖 IA y búsqueda
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### 🧪 Testing
+![JUnit5](https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-C5D9C8?style=for-the-badge)
+![Testcontainers](https://img.shields.io/badge/Testcontainers-291A3F?style=for-the-badge&logo=testcontainers&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+
+### 🌐 Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### 🗄️ Bases de datos
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+### ⚙️ DevOps y herramientas
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
 ---
 
-## 📊 **GitHub Stats**  
+## 📊 GitHub Stats
 
-![LannyRivero's GitHub stats](https://github-readme-stats.vercel.app/api?username=LannyRivero&show_icons=true&theme=radical)  
-
----
-
-## 📢 **Contacto**  
-
-📧 **Email:** [lannyrivero288@gmail.com](mailto:lannyrivero288@gmail.com)  
-💼 **LinkedIn:** [Lanny Rivero Canino](https://www.linkedin.com/in/lanny-rivero)
-💼 **Portafolio:** [Lanny Rivero Canino](https://portafolio-lanny.vercel.app/)  
-
-⭐ **Si te gusta mi trabajo, sígueme y deja una estrella en mis repositorios. ¡Gracias por pasarte por aquí!** ⭐
+![LannyRivero's GitHub stats](https://github-readme-stats.vercel.app/api?username=LannyRivero&show_icons=true&theme=radical)
 
 ---
 
+## Trayectoria
 
+Ingeniería en Ciencias Informáticas (Universidad de las Ciencias Informáticas, Cuba) + 15 años en entornos de software empresarial — mantenimiento de sistemas J2EE con Spring, Hibernate y Oracle en contextos de producción críticos.
 
-<p align="center"><samp>
-Check out my repos ⬇️  
-  </samp>
+Desde 2024, especialización backend en Factoría F5: proyectos reales con Seresco QA y Eureka Vending, y construcción de sistemas propios con foco en arquitectura, seguridad y calidad.
+
+---
+
+## 📬 Contacto
+
+📧 [lannyrivero288@gmail.com](mailto:lannyrivero288@gmail.com)
+💼 [LinkedIn](https://www.linkedin.com/in/lanny-rivero)
+🌐 [Portfolio](https://portafolio-lanny.vercel.app/)
+
+---
+
+*Disponible para roles backend en Java / Spring Boot. Busco equipos que trabajen con criterio técnico real: arquitectura, calidad y código que funciona en producción.*
+ 
+
 
 
 
